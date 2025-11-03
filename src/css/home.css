@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.welcomme p {
+    font-weight: bold;
+    font-size: larger;
+    padding: 24px 26px;
+}
+.search input {
+    outline: none;
+    border: none;
+    padding-left: 13px;
+}
+.search {
+    margin: 5px 26px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.categories-container {
+    margin: 40px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+/* .categorie-card {
+    width: 67px;
+    height: 67px;
+    object-fit: contain;
+    border: 2px solid #F66141;
+    padding: 14px 15px;
+    border-radius: 6px;
+    box-sizing: border-box;
+} */
+
+.categorie-card {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #F66141;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.categorie-card img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+.categorie-card p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F66141;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.categorie-title p {
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 19px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+
+.food-card {
+    width: 188px;
+    height: 190px;
+    background-color: white;
+    border-radius: 13px;
+    margin: auto;
+    box-shadow: 1px 1px 5px darkgray;
+    margin: 10px 0;
+}
+
+.food-card-img {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.food-card-img img {
+  width: 186px;
+  height: 126px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  display: block;
+}
+
+.food-card-img::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    right: 0;
+    bottom: 12px;
+    height: 47%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+}
+.food-card-name p {
+    font-weight: 700;
+    font-size: large;
+    padding-left: 8px;
+    color: #232323;
+}
+.food-card-prix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+.food-card-prix img {
+    width: 21px;
+}
+.food-card-prix p {
+    font-weight: 500;
+    color: #232323;
+}
+.heartActive {
+    aspect-ratio: 1;
+    background: radial-gradient(circle at 60% 30%, red 40%, transparent 41%) top left, radial-gradient(circle at 40% 30%, red 40%, transparent 41%) top right, linear-gradient(to bottom left, red 50%, transparent 50%) bottom;
+    background-size: 47% 50%;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+.heartActive:active {
+  transform: rotate(-45deg) scale(1.2);
+}
+.food-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.down-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.down-nav::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 90px;
+    height: 90%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+}
+.down-nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+.home-container {
+    padding-bottom: 115px;
+}
+@media ( max-width : 375px) {
+    .bg-0 {
+        padding-bottom: 250px;
+    }
+}
