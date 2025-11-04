@@ -14,7 +14,7 @@ function Home() {
         { id: 1, name: 'all', iconNormal: '/Images/Icones-Food/burger.png', iconActive: '/Images/Icones-Food/burger-w.png', alt: 'Burger', active: true },
         { id: 2, name: 'Pizza', iconNormal: '/Images/Icones-Food/pizza.png', iconActive: '/Images/Icones-Food/pizza-w.png', alt: 'Pizza', active: false },
         { id: 3, name: 'salad', iconNormal: '/Images/Icones-Food/frite.png', iconActive: '/Images/Icones-Food/frite-w.png', alt: 'Frites', active: false },
-        { id: 4, name: 'tacoos', iconNormal: '/Images/Icones-Food/veggies.png', iconActive: '/Images/Icones-Food/veggies-w.png', alt: 'Veggies', active: false },
+        { id: 4, name: 'tacos', iconNormal: '/Images/Icones-Food/veggies.png', iconActive: '/Images/Icones-Food/veggies-w.png', alt: 'Veggies', active: false },
         { id: 5, name: 'drink', iconNormal: '/Images/Icones-Food/drink.png', iconActive: '/Images/Icones-Food/drink-w.png', alt: 'Drinks', active: false },
     ]);
 
