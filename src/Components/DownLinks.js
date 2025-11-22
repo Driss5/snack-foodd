@@ -14,7 +14,9 @@ function DownLinks() {
                 <Link to="/pageLikes">
                     <img src='/Images/Icones/market.svg' alt='Home' />
                 </Link>
-                <img src='/Images/Icones/profile.svg' alt='Home' />
+                <Link to="/PageOffre">
+                    <img src='/Images/Icones/profile.svg' alt='Home' />
+                </Link>
             </div>
         </div>
     )

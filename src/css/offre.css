@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.offre-container {
+    width: 100%;
+    height: 82vh;
+    /* background-image: url('/public/Images/backgrounds/bg-black-1.png'); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offre-header {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.offre-header p:nth-child(1) {
+    font-size: larger;
+}
+.offre-image img {
+    width: 300px;
+}
+.offre-footer button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.offres-container {
+    padding-bottom: 150px;
+}
+
+.food-card {
+    width: 200px;
+    height: 250px;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 89px;
+}
+.food-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.food-card-img {
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    border-bottom: 2px solid #eee;
+}
+.food-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.food-card-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+.food-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+}
+.food-desc {
+    font-size: 13px;
+    color: #777;
+    margin: 4px 0;
+    line-height: 1.2;
+    height: 32px;
+    overflow: hidden;
+}
+.food-price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff0088;
+    margin: 0;
+}
