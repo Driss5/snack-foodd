@@ -86,7 +86,7 @@ function Home() {
             <Navbar />
             <div className='home-container'>
                 <div className='welcomme'>
-                    <p>Good evening, Welcomme</p>
+                    <p>Good evening, Welcommee</p>
                 </div>
                 <div className='search-container'>
                     <div className='search'>
