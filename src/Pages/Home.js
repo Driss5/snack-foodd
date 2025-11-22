@@ -104,6 +104,10 @@ function Home() {
                 </div> 
                 <div className='categorie-title'>
                     <p>{ showCategorie }</p>
+                    {/* <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br> */}
                 </div>
                 <div className='food-cards-container'>
                     {foods.map((food) => (
